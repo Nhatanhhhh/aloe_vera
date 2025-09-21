@@ -18,8 +18,8 @@ const Footer: React.FC = () => {
                             </span>
                         </div>
                         <p className="text-gray-300 text-lg mb-6 max-w-md">
-                            Pure aloe vera powder production from organic cultivation to premium quality. 
-                            Discover the complete journey of nature's healing power.
+                            Sản xuất bột nha đam tinh khiết từ trồng trọt hữu cơ đến chất lượng cao cấp. 
+                            Khám phá hành trình hoàn chỉnh của sức mạnh chữa lành từ thiên nhiên.
                         </p>
                         <div className="flex space-x-4">
                             <a href="#" className="text-gray-300 hover:text-green-400 transition-colors">
@@ -42,30 +42,30 @@ const Footer: React.FC = () => {
 
                     {/* Process Info */}
                     <div>
-                        <h3 className="text-xl font-semibold mb-6 text-green-400">Process</h3>
+                        <h3 className="text-xl font-semibold mb-6 text-green-400">Quy trình</h3>
                         <div className="space-y-3 text-gray-300">
                             <div className="flex items-center">
                                 <div className="w-2 h-2 bg-green-400 rounded-full mr-3"></div>
-                                <span>Organic Cultivation</span>
+                                <span>Trồng trọt hữu cơ</span>
                             </div>
                             <div className="flex items-center">
                                 <div className="w-2 h-2 bg-green-400 rounded-full mr-3"></div>
-                                <span>Quality Harvesting</span>
+                                <span>Thu hoạch chất lượng</span>
                             </div>
                             <div className="flex items-center">
                                 <div className="w-2 h-2 bg-green-400 rounded-full mr-3"></div>
-                                <span>Pure Extraction</span>
+                                <span>Chiết xuất tinh khiết</span>
                             </div>
                             <div className="flex items-center">
                                 <div className="w-2 h-2 bg-green-400 rounded-full mr-3"></div>
-                                <span>Powder Production</span>
+                                <span>Sản xuất bột</span>
                             </div>
                         </div>
                     </div>
 
                     {/* Contact Info */}
                     <div>
-                        <h3 className="text-xl font-semibold mb-6 text-green-400">Contact</h3>
+                        <h3 className="text-xl font-semibold mb-6 text-green-400">Liên hệ</h3>
                         <div className="space-y-3 text-gray-300">
                             <div className="flex items-start">
                                 <svg className="w-5 h-5 text-green-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -77,14 +77,14 @@ const Footer: React.FC = () => {
                                 <svg className="w-5 h-5 text-green-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"></path>
                                 </svg>
-                                <span>+1 (555) 123-4567</span>
+                                <span>+84 (28) 1234-5678</span>
                             </div>
                             <div className="flex items-start">
                                 <svg className="w-5 h-5 text-green-400 mr-3 mt-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"></path>
                                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z"></path>
                                 </svg>
-                                <span>Organic Farm District</span>
+                                <span>Khu vực nông trại hữu cơ</span>
                             </div>
                         </div>
                     </div>
@@ -93,10 +93,10 @@ const Footer: React.FC = () => {
                 {/* Copyright */}
                 <div className="border-t border-gray-600 mt-12 pt-8 text-center">
                     <p className="text-gray-400">
-                        © Copyright 2024 LIVERA - Pure Aloe Vera Production. All rights reserved.
+                        © Bản quyền 2024 LIVERA - Sản xuất bột nha đam tinh khiết. Tất cả quyền được bảo lưu.
                     </p>
                     <p className="text-gray-500 text-sm mt-2">
-                        Made with ❤️ for natural health and wellness
+                        Được tạo ra với ❤️ cho sức khỏe và sức khỏe tự nhiên
                     </p>
                 </div>
             </div>

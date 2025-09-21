@@ -2,9 +2,9 @@ import "./App.css";
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
-import GrowingProcess from './components/GrowingProcess';
-import ProductionProcess from './components/ProductionProcess';
-import Products from './components/Products';
+import ProcessVideoSection from './components/ProcessVideoSection';
+import AnimationSection from './components/AnimationSection';
+import ProductsSection from './components/ProductsSection';
 
 function App() {
     return (
@@ -13,9 +13,9 @@ function App() {
             
             <main className="pt-20">
                 <HeroSection />
-                <GrowingProcess />
-                <ProductionProcess />
-                <Products />
+                <ProcessVideoSection />
+                <AnimationSection />
+                <ProductsSection />
             </main>
             
             <Footer />
