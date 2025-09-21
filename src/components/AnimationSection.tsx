@@ -129,7 +129,7 @@ const AnimationSection: React.FC = () => {
                                             transition={{ duration: 1 }}
                                         >
                                             <img
-                                                src="https://res.cloudinary.com/dixqw22t3/image/upload/v1758468801/images_cix40y.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=120&q=80"
+                                                src="https://res.cloudinary.com/dixqw22t3/image/upload/v1758470837/pngtree-several-aloe-vera-in-the-land-image_1182312_sxnkfa.jpg?ixlib=rb-4.0.3&auto=format&fit=crop&w=120&q=80"
                                                 alt="Growing Aloe Vera"
                                                 className="w-20 h-20 object-cover rounded-lg shadow-md"
                                             />
