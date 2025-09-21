@@ -35,48 +35,54 @@ const Header: React.FC = () => {
                     
                     {/* Navigation */}
                     <div className="flex items-center space-x-4 sm:space-x-6">
-                        <motion.button 
-                            whileHover={{ scale: 1.05 }}
-                            whileTap={{ scale: 0.95 }}
-                            onClick={() => scrollToSection('process')}
-                            className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 sm:px-6 py-2 rounded-full font-medium hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl"
-                        >
-                            <span className="hidden sm:inline">Tìm hiểu thêm</span>
-                            <span className="sm:hidden">Tìm hiểu</span>
-                        </motion.button>
                         <nav className="hidden md:flex space-x-6">
                             <motion.a 
-                                whileHover={{ scale: 1.1 }}
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
                                 href="#process" 
                                 onClick={(e) => {
                                     e.preventDefault();
                                     scrollToSection('process');
                                 }}
-                                className="text-green-600 font-medium hover:text-green-700 transition-colors cursor-pointer"
+                                className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 sm:px-6 py-2 rounded-full font-medium hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer"
                             >
                                 Quy trình
                             </motion.a>
                             <motion.a 
-                                whileHover={{ scale: 1.1 }}
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
                                 href="#animation" 
                                 onClick={(e) => {
                                     e.preventDefault();
                                     scrollToSection('animation');
                                 }}
-                                className="text-green-600 font-medium hover:text-green-700 transition-colors cursor-pointer"
+                                className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 sm:px-6 py-2 rounded-full font-medium hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer"
                             >
                                 Mô phỏng
                             </motion.a>
                             <motion.a 
-                                whileHover={{ scale: 1.1 }}
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
                                 href="#products" 
                                 onClick={(e) => {
                                     e.preventDefault();
                                     scrollToSection('products');
                                 }}
-                                className="text-green-600 font-medium hover:text-green-700 transition-colors cursor-pointer"
+                                className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 sm:px-6 py-2 rounded-full font-medium hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer"
                             >
                                 Sản phẩm
+                            </motion.a>
+                            <motion.a 
+                                whileHover={{ scale: 1.05 }}
+                                whileTap={{ scale: 0.95 }}
+                                href="#about" 
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    scrollToSection('about');
+                                }}
+                                className="bg-gradient-to-r from-green-500 to-emerald-600 text-white px-4 sm:px-6 py-2 rounded-full font-medium hover:from-green-600 hover:to-emerald-700 transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer"
+                            >
+                                Tìm hiểu thêm
                             </motion.a>
                         </nav>
                     </div>

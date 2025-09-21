@@ -118,7 +118,7 @@ const ProductsSection: React.FC = () => {
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
                             onClick={() => setSelectedCategory(category.id)}
-                            className={`px-6 py-3 rounded-full font-medium transition-all duration-300 ${
+                            className={`px-6 py-3 rounded-full font-medium transition-all duration-300 cursor-pointer ${
                                 selectedCategory === category.id
                                     ? 'bg-gradient-to-r from-green-500 to-emerald-600 text-white shadow-lg'
                                     : 'bg-white text-gray-600 hover:bg-green-50 hover:text-green-600 shadow-md hover:shadow-lg'
@@ -198,14 +198,14 @@ const ProductsSection: React.FC = () => {
                                     <motion.button
                                         whileHover={{ scale: 1.05 }}
                                         whileTap={{ scale: 0.95 }}
-                                        className="flex-1 bg-gradient-to-r from-green-500 to-emerald-600 text-white py-2 px-4 rounded-lg font-medium hover:from-green-600 hover:to-emerald-700 transition-all duration-300"
+                                        className="flex-1 bg-gradient-to-r from-green-500 to-emerald-600 text-white py-2 px-4 rounded-lg font-medium hover:from-green-600 hover:to-emerald-700 transition-all duration-300 cursor-pointer"
                                     >
                                         Xem chi tiết
                                     </motion.button>
                                     <motion.button
                                         whileHover={{ scale: 1.05 }}
                                         whileTap={{ scale: 0.95 }}
-                                        className="px-4 py-2 border border-green-500 text-green-600 rounded-lg font-medium hover:bg-green-50 transition-all duration-300"
+                                        className="px-4 py-2 border border-green-500 text-green-600 rounded-lg font-medium hover:bg-green-50 transition-all duration-300 cursor-pointer"
                                     >
                                         ❤️
                                     </motion.button>
@@ -230,7 +230,7 @@ const ProductsSection: React.FC = () => {
                         <motion.button
                             whileHover={{ scale: 1.05 }}
                             whileTap={{ scale: 0.95 }}
-                            className="bg-white text-green-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-green-50 transition-all duration-300 shadow-lg hover:shadow-xl"
+                            className="bg-white text-green-600 px-8 py-3 rounded-full font-bold text-lg hover:bg-green-50 transition-all duration-300 shadow-lg hover:shadow-xl cursor-pointer"
                         >
                             Liên hệ ngay
                         </motion.button>

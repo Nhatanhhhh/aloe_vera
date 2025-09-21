@@ -272,13 +272,13 @@ const AnimationSection: React.FC = () => {
                         </div>
 
                         {/* Control Panel */}
-                        <div className="mt-8 flex justify-center space-x-4">
+                        <div className="mt-8 flex justify-center space-x-4 hover:cursor-pointer">
                             <motion.button
                                 whileHover={{ scale: 1.05 }}
                                 whileTap={{ scale: 0.95 }}
                                 onClick={startAnimation}
                                 disabled={isAnimating}
-                                className={`px-8 py-4 rounded-full font-medium transition-all duration-300 ${
+                                className={`px-8 py-4 rounded-full font-medium transition-all duration-300 hover:cursor-pointer ${
                                     isAnimating 
                                         ? 'bg-gray-400 text-gray-200 cursor-not-allowed' 
                                         : 'bg-gradient-to-r from-green-500 to-emerald-600 text-white hover:from-green-600 hover:to-emerald-700 shadow-lg hover:shadow-xl'

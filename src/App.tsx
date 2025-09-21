@@ -5,6 +5,7 @@ import HeroSection from './components/HeroSection';
 import ProcessVideoSection from './components/ProcessVideoSection';
 import AnimationSection from './components/AnimationSection';
 import ProductsSection from './components/ProductsSection';
+import AboutSection from './components/AboutSection';
 
 function App() {
     return (
@@ -16,6 +17,7 @@ function App() {
                 <ProcessVideoSection />
                 <AnimationSection />
                 <ProductsSection />
+                <AboutSection />
             </main>
             
             <Footer />
