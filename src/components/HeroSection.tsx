@@ -87,7 +87,7 @@ const HeroSection: React.FC = () => {
                         >
                             {[
                                 { value: "100%", label: "Hữu cơ" },
-                                { value: "8", label: "Bước quy trình" },
+                                { value: "4", label: "Bước quy trình" },
                                 { value: "200:1", label: "Nồng độ" }
                             ].map((stat, index) => (
                                 <motion.div 
